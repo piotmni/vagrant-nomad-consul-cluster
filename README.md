@@ -32,4 +32,4 @@ sudo apt-get update
 sudo apt-get install haproxy=2.0.20-1ppa1~xenial
 ```
 
-paste config haproxy.cfg to /etc/haproxy.cfg and configure nomad.local and consul.local in your system hosts file 
+paste config haproxy.cfg to /etc/haproxy/haproxy.cfg and configure nomad.local and consul.local in your system hosts file 
