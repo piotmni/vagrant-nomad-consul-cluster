@@ -26,8 +26,9 @@ Commands( you have to be in this folder):
 install haproxy on vm 
 
 ```bash
-apt-get install --no-install-recommends software-properties-common
-add-apt-repository ppa:vbernat/haproxy-2.0
+sudo apt-get install --no-install-recommends software-properties-common
+sudo add-apt-repository ppa:vbernat/haproxy-2.0
+sudo apt-get update
 sudo apt-get install haproxy=2.0.20-1ppa1~xenial
 ```
 
